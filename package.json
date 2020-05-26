@@ -1,0 +1,19 @@
+{
+  "name": "dunejs.org",
+  "version": "1.0.0",
+  "repository": "git@github.com:dunejs/dunejs.org.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "dune watch",
+    "build": "dune build",
+    "start": "dune start"
+  },
+  "dependencies": {
+    "dunejs": "^0.0.5",
+    "vuetify": "^2.2.29"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.3.45",
+    "pug": "^3.0.0"
+  }
+}
